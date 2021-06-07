@@ -15,7 +15,7 @@ try:
   search_params = dict(checks = 50)
   flann = cv.FlannBasedMatcher(index_params, search_params)
 
-  for path in imgpaths[:2]:
+  for path in imgpaths[:3]:
     img2 = cv.imread(path, 0) # trainImage
     # Initiate SIFT detector
     
